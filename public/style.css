@@ -1,0 +1,116 @@
+div {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.box {
+    max-width: 900px;
+    margin: auto;
+    margin-top: -5px;
+    border-radius: 3px;
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+
+.box1 {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+#heading {
+    background-color: lightgray;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    ;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 40px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 200;
+    width: 413px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.round {
+    position: relative;
+}
+
+#b {
+    width: 69px;
+    height: 66px;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 56px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+}
+
+#s2 {
+    font-size: 90px;
+}
+
+form.item {
+    text-align: center;
+}
+
+.round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 28px;
+    left: 10px;
+    border-radius: 50%;
+    top: 0;
+    width: 28px;
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+#checkbox {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 5px;
+}
